@@ -25,7 +25,7 @@ if(isset($_POST['submit']))
             include_once ('Database/userUpdate.php');
             break;
         case "register":
-            include_once ('Display/register.html.php');
+            include_once ('Database/register.php');
             break;
         default:
             include_once ('Display/login.html.php'); 

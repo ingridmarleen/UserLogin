@@ -11,11 +11,8 @@ include_once ('/Display/headerWrap.php');
 include_once ('/Display/userUpdate.html.php');
 
 if($_POST['submit'] == 'save'){
-    if($_POST['password'] != 'wachtwoord'){
+    
     $user->updateUser(); 
-    }
-echo '<center>Gegevens zijn gewijzigd</center>';
-
 }
 include_once ('/Display/footerWrap.php');
 

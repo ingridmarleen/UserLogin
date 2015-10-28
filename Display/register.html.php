@@ -29,7 +29,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="name">Naam</label>  
                   <div class="col-md-4">
-                  <input id="name" name="name" placeholder="Naam" class="form-control input-md" required="" type="text">
+                  <input id="name" name="name" placeholder="Naam" class="form-control input-md" type="text">
 
                   </div>
                 </div>
@@ -38,7 +38,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="email">Email adres</label>  
                   <div class="col-md-4">
-                  <input id="email" name="email" placeholder="Email adres" class="form-control input-md" required="" type="text">
+                  <input id="email" name="email" placeholder="Email adres" class="form-control input-md" type="text">
 
                   </div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="username">Gebruikersnaam</label>  
                   <div class="col-md-4">
-                  <input id="username" name="username" placeholder="Gebruikersnaam" class="form-control input-md" required="" type="text">
+                  <input id="username" name="username" placeholder="Gebruikersnaam" class="form-control input-md" type="text">
 
                   </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="password">Wachtwoord</label>
                   <div class="col-md-4">
-                    <input id="password" name="password" placeholder="Wachtwoord" class="form-control input-md" required="" type="password">
+                    <input id="password" name="password" placeholder="Wachtwoord" class="form-control input-md" type="password">
 
                   </div>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="register"></label>
                   <div class="col-md-8">
-                    <button type="submit" value="register" name="register" class="btn btn-primary">Registreer</button>
+                    <button type="submit" value="register" name="submit" class="btn btn-primary">Registreer</button>
                   </div>
                 </div>
             </div>

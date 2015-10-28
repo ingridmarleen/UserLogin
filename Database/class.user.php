@@ -103,19 +103,11 @@ class User
                 $stmt = $this->_db->prepare($sql);
                 
                 $ID = $_SESSION['user'];
-                if(!empty($_POST['name'])){
-                   $name = $_POST['name'];
-                }
-               
-                
-                if(!empty($_POST['email'])){
-                   $email = $_POST['email'];
-                }
-                
-                if(!empty($_POST['username'])){
-                   $username = $_POST['username'];
-                }
-                
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $username = $_POST['username'];
+                $password = $_POST['password'];
+                                
                 $stmt->bindparam(":ID", $ID);
                 $stmt->bindparam(":name", $name);
                 $stmt->bindparam(":email", $email);
@@ -127,9 +119,11 @@ class User
             catch (Exception $e) {
                 echo $e->getMessage();
             }
+            
+            echo 'Gegevens zijn gewijzigd';
         }
         else{
-            echo "Please verify your password";
+            echo 'Controleer uw wachtwoord alstublieft';
         }
     }
         
@@ -157,7 +151,9 @@ class User
         catch(PDOException $e)
         {
             echo $e->getMessage();
-        }				
+        }
+        header('Display/login.html.php');
+        echo "<center>Registreren is gelukt, log in aub.</center>";
     }
     
     public function __destruct(){
