@@ -7,11 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="author" content="Ingrid van den Boom">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Display/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/signin.css">
-        
-    <title>Login</title>        
+    <link rel="stylesheet" href="Display/css/signin.css">  
+    
+    <title>Log in</title>
   </head>
 
   <body>
@@ -26,13 +26,13 @@
             <div class="panel-body">
                 
                 <label for="username" class="sr-only">Gebruikersnaam</label>
-                <input type="username" id="username" class="form-control" placeholder="Gebruikersnaam">
+                <input type="username" name="username" id="username" class="form-control" placeholder="Gebruikersnaam">
                 <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="password" class="form-control" placeholder="Wachtwoord">
+                <input type="password" name="password" id="password" class="form-control" placeholder="Wachtwoord">
                 
                 <div class="form-group">
-                    <button type="submit" value="login" name="login" class="btn btn-primary">Login</button>
-                    <button type="submit" value="register" name="register" class="btn btn-default">Registreer</button>
+                    <button type="submit" value="login" name="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" value="addUser" name="submit" class="btn btn-default">Registreer</button>
                 </div>
                 
             </div>
@@ -44,6 +44,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="Display/js/bootstrap.min.js"></script>
   </body>
 </html>

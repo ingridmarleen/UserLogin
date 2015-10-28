@@ -123,3 +123,27 @@
         margin-right: 0;
     }
 }
+
+.btn-link {
+  font-weight: normal;
+  color: #999999;
+  border-radius: 0;
+}
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active{
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+.form-control {
+  display: block;
+  width: 50%;
+}

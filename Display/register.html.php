@@ -7,11 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="author" content="Ingrid van den Boom">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Display/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="Display/css/signin.css">
         
-    <title>Update gegevens</title>        
+    <title>Registreren</title>        
   </head>
 
   <body>
@@ -21,8 +21,9 @@
               
             <div class="panel panel-primary">
                 
-                <h2 class="panel-heading">Update gebruikersgegevens</h2>
-                                
+                <h2 class="panel-heading">Registreren</h2>
+                <p align="right"><a href="index.php"> Ik heb al een account </a></p>
+                
             <div class="panel-body">
                 <!--Name-->
                 <div class="form-group">
@@ -62,9 +63,9 @@
 
                 <!--Sign up or login-->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="update"></label>
+                  <label class="col-md-4 control-label" for="register"></label>
                   <div class="col-md-8">
-                    <button type="submit" value="update" name="update" class="btn btn-primary">Opslaan</button>
+                    <button type="submit" value="register" name="register" class="btn btn-primary">Registreer</button>
                   </div>
                 </div>
             </div>
@@ -76,6 +77,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="Display/js/bootstrap.min.js"></script>
   </body>
 </html>
